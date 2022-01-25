@@ -9,7 +9,7 @@ const NavBar = () => (
         <NavLink
           to="/"
           className={styles.navLink}
-          className={styles.selected}
+          activeclassname={styles.selected}
         >
           Home
         </NavLink>
@@ -18,7 +18,7 @@ const NavBar = () => (
         <NavLink
           to="/greetings"
           className={styles.navLink}
-          className={styles.selected}
+          activeclassname={styles.selected}
         >
           Greet me!
         </NavLink>
@@ -28,4 +28,3 @@ const NavBar = () => (
 );
 
 export default NavBar;
-
